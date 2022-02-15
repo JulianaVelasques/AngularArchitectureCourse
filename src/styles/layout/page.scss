@@ -1,0 +1,27 @@
+//Files that will define the styles of the main page
+.app-page {
+  max-width: 900px;
+  margin: 16px auto;
+
+  background: $base-light;
+  border: 1px solid $base-dark;
+  border-radius: 8px;
+  padding: 32px;
+
+  position: relative;
+
+  &_header {
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  &_content {
+    color: $base-light;
+  }
+
+  &_footer {
+    margin-top: 32pix;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

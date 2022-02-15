@@ -1,0 +1,78 @@
+//Will contain styles for all typography elements at once
+
+//Define several tags at once and set a common font-family for them.
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $base-font-family;
+}
+
+/*Create the corresponding classes so that yoy can apply the class
+if it is necessary without using a tag*/
+/*This can be handy, for example if the application requires SEO-optimization*/
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: $base-font-family;
+}
+
+/*The default margins were reset after applying reset.scss, so I need
+to specify them explicitly*/
+h1,
+.h1 {
+  font-weight: 300;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+}
+
+h2,
+.h2 {
+  font-weight: 300;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+}
+
+h3,
+.h3 {
+  font-weight: 400;
+  font-size: 1.7em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h4,
+.h4 {
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+}
+
+h5,
+.h5 {
+  font-weight: 500;
+  font-size: 1em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+}
+
+h6,
+.h6 {
+  font-weight: 500;
+  font-size: 0.67em;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+}
+
+b,
+strong {
+  font-weight: 500;
+}

@@ -1,0 +1,11 @@
+@import "styles/mixins";
+
+//Mixins are not self-contained, so we need to addd extra classes and aply mixins to them
+.shadow {
+  @include shadow;
+  padding: 20px;
+}
+
+.card {
+  @include card;
+}
